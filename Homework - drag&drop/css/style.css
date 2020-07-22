@@ -1,0 +1,50 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.dragList {
+    position: absolute;
+    top: 40px;
+    width: 530px;
+    height: 40px;
+    border: 1px solid rgb(129, 59, 13);
+}
+
+span {
+    background-color: rgb(41, 100, 160);
+    padding: 0 10px 20px 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: aquamarine;
+}
+
+.dropBox {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    width: 400px;
+    height: 330px;
+    border: 1px solid rgb(129, 59, 13);
+}
+
+.dropBox .dB {
+    background-color: white;
+    margin: 15px 0 0 0;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.dropBox .dropList {
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 300px;
+    height: 40px;
+}
